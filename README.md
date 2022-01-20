@@ -7,6 +7,8 @@ HOW TO START POSTGRES
 
 $ psql postgres
 
+==============================================================================================
+
 TABLES:
 
 student: id and name of student
@@ -20,3 +22,11 @@ subject
 eval_group: ex -> dm, qcm
 
 grade
+
+==============================================================================================
+
+FUNCTIONS:
+
+add_student(name TEXT):
+
+    - adds a student in the student table
