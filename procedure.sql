@@ -1,8 +1,0 @@
-CREATE OR REPLACE FUNCTION add_student(name TEXT)
-    RETURNS VOID AS
-$$
-BEGIN
-  INSERT INTO student VALUES
-  (DEFAULT, name);
-END
-$$ LANGUAGE plpgsql;
