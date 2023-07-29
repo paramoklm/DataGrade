@@ -4,6 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="bg-blue-500 text-white p-4">
+        <h1 className="text-4xl font-bold">Hello, Tailwind CSS!</h1>
+        <p className="text-lg">This is a sample React app with Tailwind CSS included.</p>
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
