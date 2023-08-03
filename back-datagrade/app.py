@@ -1,4 +1,5 @@
 from flask import Flask
+from grid import Grid, Module, Subject, Grade
 
 app = Flask(__name__)
 
